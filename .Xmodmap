@@ -1,0 +1,23 @@
+! remove the current modifiers
+remove control = Control_L
+remove mod4 = Super_L
+remove mod1 = Alt_L
+remove mod5 = ISO_Level3_Shift
+
+! Left Control Key as Left Win/Super Key
+keysym Control_L = Super_L
+
+! Left Win/Super Key as Left Alt Key
+keysym Super_L = Alt_L
+
+! Left Alt Key as Left Control Key
+keysym Alt_L = Control_L
+
+! Right Alt Key as CapsLock Key
+keysym ISO_Level3_Shift = Caps_Lock
+
+! add the new configured modifiers
+add control = Control_L
+add mod4 = Super_L
+add mod1 = Alt_L
+add mod5 = ISO_Level3_Shift
